@@ -1,4 +1,4 @@
-### Employee Salary Prediction Project
+# Employee Salary Prediction Project
 
 ## Overview
 This project provides a comprehensive solution for predicting employee salaries based on various professional attributes. It includes a complete machine learning pipeline for salary prediction and an interactive Streamlit web application for visualizing results and making predictions.
@@ -13,7 +13,7 @@ This project provides a comprehensive solution for predicting employee salaries 
   4. Streamlit Web App: Interactive dashboard for salary prediction and visualization
 
 ## Features
-# 🧠 Machine Learning Pipeline
+### 🧠 Machine Learning Pipeline
   - Advanced feature engineering with experience ratios and seniority flags
   - Outlier handling using winsorization
   - One-hot encoding for categorical features
@@ -26,7 +26,7 @@ This project provides a comprehensive solution for predicting employee salaries 
     - ElasticNet
     - Ridge Regression
 
-# 📊 Streamlit Application
+### 📊 Streamlit Application
 - Interactive Prediction: Input employee attributes to get salary predictions
 - Visual Analytics:
   - Salary distribution by education level
@@ -43,11 +43,11 @@ The Random Forest model achieved the best performance:
   - MAE: 28,169.77
 
 ## Getting Started
-**Prerequisites**
+### Prerequisites
   - Python 3.7+
   - Required packages: pandas, numpy, scikit-learn, xgboost, streamlit, plotly
 
-**Installation**
+### Installation
 1. Clone the repository:
 ```
 git clone https://github.com/your-username/employee-salary-prediction.git
@@ -58,13 +58,13 @@ cd employee-salary-prediction
 ```
 pip install -r requirements.txt
 ```
-# Usage
+### Usage
 1. Run the Jupyter notebook to train models:
 ```
 jupyter notebook Employee_Salary_Prediction.ipynb
 ```
 
-Launch the Streamlit app:
+2. Launch the Streamlit app:
 ```
 streamlit run app.py
 ```
